@@ -83,21 +83,70 @@ body {
 	margin-bottom: 16px;
 }
 
-.restaurant-bannerr .btn {
+
+.restaurant-banner {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  .restaurant-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+
+.restaurant-banner .btn {
+    font-style: italic;
+    font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+    width: 150px;
+    height: 75px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 12px 12px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
   }
+
+  .restaurant-banner .rest {
+    font-style: italic;
+    font-size: 1.3rem;
+	font-weight: 1200;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 26px;
+    padding: 26px 26px;
+    border: #333;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+
   
   .restaurant-banner .btn:hover {
-    background-color: black;
+    background-color: #333;
   }
